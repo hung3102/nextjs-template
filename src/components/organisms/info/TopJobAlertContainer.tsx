@@ -6,23 +6,25 @@ import styled from "styled-components";
 export const TopJobAlertContainer = () => {
   return (
     <StyledWrap>
-      <StyledTextWrap>
-        <StyledTitle
-          text="Sign up for job alerts"
-          fontSize={TextSize.HeadingBase}
-        ></StyledTitle>
-        <StyledDetail
-          text="Your journey begins here"
-          fontSize={TextSize.HeadingMedium}
-        ></StyledDetail>
-      </StyledTextWrap>
+      <StyledBox>
+        <StyledTextWrap>
+          <StyledTitle
+            text="Sign up for job alerts"
+            fontSize={TextSize.HeadingBase}
+          ></StyledTitle>
+          <StyledDetail
+            text="Your journey begins here"
+            fontSize={TextSize.HeadingMedium}
+          ></StyledDetail>
+        </StyledTextWrap>
 
-      <StyledButton
-        text="Sign up"
-        onClick={() => {
-          console.log("TODOH");
-        }}
-      ></StyledButton>
+        <StyledButton
+          text="Sign up"
+          onClick={() => {
+            console.log("TODOH");
+          }}
+        ></StyledButton>
+      </StyledBox>
     </StyledWrap>
   );
 };
@@ -30,10 +32,21 @@ export const TopJobAlertContainer = () => {
 const StyledWrap = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0px 0px;
+  gap: 10px;
+  height: 341px;
+`;
+
+const StyledBox = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 1512px;
   height: 317px;
+  padding: 24px 0px 0px;
 `;
 
 const StyledTextWrap = styled.div`

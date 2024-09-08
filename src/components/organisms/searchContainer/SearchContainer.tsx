@@ -34,7 +34,11 @@ const StyledWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 24px;
+  isolation: isolate;
+  height: 346px;
+  background: linear-gradient(125.55deg, #f8fefc -14.07%, #ffffff 60.25%);
+  align-self: stretch;
 `;
 const StyledBigText = styled(TitleText)``;
 const StyledNormalText = styled(NormalText)``;

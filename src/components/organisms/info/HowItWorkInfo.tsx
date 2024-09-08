@@ -40,11 +40,9 @@ const StyledWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 0px 24px;
   gap: 48px;
-
-  width: 1312px;
-  height: 653px;
+  align-self: stretch;
+  padding: 64px 100px;
 `;
 
 const StyledTitleGroup = styled.div``;

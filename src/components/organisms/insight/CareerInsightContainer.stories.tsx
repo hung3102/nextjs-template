@@ -19,9 +19,11 @@ const posts = [1, 2, 3, 4, 5, 6].map(() => ({
   onClick: fn(),
 }));
 
+export const careerInsightContainerArgs = {
+  posts,
+  lastUpdatedText: "7 hours ago",
+};
+
 export const Primary: Story = {
-  args: {
-    posts,
-    lastUpdatedText: "7 hours ago",
-  },
+  args: careerInsightContainerArgs,
 };

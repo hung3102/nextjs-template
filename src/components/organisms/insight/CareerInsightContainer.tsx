@@ -8,12 +8,15 @@ import {
 import { TextSize } from "@/const/style";
 import styled from "styled-components";
 
-type IProps = {
+export type ICareerInsightContainer = {
   lastUpdatedText: string;
   posts: ICareerInsightBox[];
 };
 
-export const CareerInsightContainer = ({ lastUpdatedText, posts }: IProps) => {
+export const CareerInsightContainer = ({
+  lastUpdatedText,
+  posts,
+}: ICareerInsightContainer) => {
   const firstLinePosts = posts.slice(0, 3);
   const secondLinePosts = posts.slice(3, 6);
 
@@ -68,6 +71,7 @@ const StyledWrap = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 24px;
+  padding: 64px;
 `;
 const StyledHeader = styled.div`
   display: flex;

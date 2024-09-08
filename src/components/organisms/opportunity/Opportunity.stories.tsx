@@ -40,9 +40,11 @@ const logoUrls = [
   "dena",
 ].map((name) => `http://localhost:6006/test/${name}.svg`);
 
+export const opportunityArgs = {
+  logoUrls,
+  companies,
+};
+
 export const Primary: Story = {
-  args: {
-    logoUrls,
-    companies,
-  },
+  args: opportunityArgs,
 };

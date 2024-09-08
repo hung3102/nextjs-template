@@ -7,12 +7,12 @@ import { LogoList } from "@/components/molecules/logoList/LogoList";
 import { TextSize } from "@/const/style";
 import styled from "styled-components";
 
-type IProps = {
+export type IOpportunity = {
   logoUrls: string[];
   companies: ICompanyJobBox[];
 };
 
-export const Opportunity = ({ logoUrls, companies }: IProps) => {
+export const Opportunity = ({ logoUrls, companies }: IOpportunity) => {
   const firstLineCompanies = companies.slice(0, 3);
   const secondeLineCompanies = companies.slice(3, 6);
 
@@ -57,18 +57,20 @@ const StyledWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  padding: 100px 100px 64px;
 `;
 const StyledTitle = styled(TitleText)``;
 const StyledLogoList = styled(LogoList)``;
 
 const StyledCompanyJobWrap = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 32px 0px;
   gap: 24px;
-  width: 1312px;
   align-self: stretch;
 `;
 const StyledCompanyJobLine = styled.div`

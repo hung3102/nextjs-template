@@ -5,12 +5,15 @@ import { IJobBox, JobBox } from "@/components/molecules/job/JobBox";
 import { TextSize } from "@/const/style";
 import styled from "styled-components";
 
-type IProps = {
+export type ILatestJobContainer = {
   lastUpdatedText: string;
   jobs: IJobBox[];
 };
 
-export const LatestJobContainer = ({ lastUpdatedText, jobs }: IProps) => {
+export const LatestJobContainer = ({
+  lastUpdatedText,
+  jobs,
+}: ILatestJobContainer) => {
   const firstLineJobs = jobs.slice(0, 2);
   const secondLineJobs = jobs.slice(2, 4);
   const thirdLineJobs = jobs.slice(4, 6);
@@ -93,6 +96,7 @@ const StyledWrap = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 24px;
+  padding: 64px 100px;
 `;
 
 const StyledHead = styled.div`

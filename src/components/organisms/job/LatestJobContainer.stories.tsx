@@ -22,9 +22,11 @@ const jobs = [1, 2, 3, 4, 5, 6, 7, 8].map(() => ({
   ],
 }));
 
+export const latestJobContainerArgs = {
+  jobs,
+  lastUpdatedText: "7 hours ago",
+};
+
 export const Primary: Story = {
-  args: {
-    jobs,
-    lastUpdatedText: "7 hours ago",
-  },
+  args: latestJobContainerArgs,
 };

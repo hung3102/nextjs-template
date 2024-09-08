@@ -11,109 +11,125 @@ import styled from "styled-components";
 export const Footer = () => {
   return (
     <StyledWrap>
-      <StyledLogo></StyledLogo>
+      <StyledBox>
+        <StyledLogo></StyledLogo>
 
-      <StyledInfo>
-        <StyledColumn>
-          <StyledTitle
-            text="Job Seekers"
-            fontSize={TextSize.BodyMedium}
-          ></StyledTitle>
-          <StyledElement
-            text="Job search"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Recommended jobs"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Company list"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Application history"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Career insights"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-        </StyledColumn>
+        <StyledInfo>
+          <StyledColumn>
+            <StyledTitle
+              text="Job Seekers"
+              fontSize={TextSize.BodyMedium}
+            ></StyledTitle>
+            <StyledElement
+              text="Job search"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Recommended jobs"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Company list"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Application history"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Career insights"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+          </StyledColumn>
 
-        <StyledColumn>
-          <StyledTitle
-            text="Employers"
-            fontSize={TextSize.BodyMedium}
-          ></StyledTitle>
-          <StyledElement
-            text="Posting jobs"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Pricing"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Register a company profile"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-        </StyledColumn>
+          <StyledColumn>
+            <StyledTitle
+              text="Employers"
+              fontSize={TextSize.BodyMedium}
+            ></StyledTitle>
+            <StyledElement
+              text="Posting jobs"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Pricing"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Register a company profile"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+          </StyledColumn>
 
-        <StyledColumn>
-          <StyledTitle
-            text="About us"
-            fontSize={TextSize.BodyMedium}
-          ></StyledTitle>
-          <StyledElement
-            text="About the company"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Help & support"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-          <StyledElement
-            text="Contact us"
-            fontSize={TextSize.BodyMedium}
-            onClick={() => console.log("TODOH")}
-          ></StyledElement>
-        </StyledColumn>
+          <StyledColumn>
+            <StyledTitle
+              text="About us"
+              fontSize={TextSize.BodyMedium}
+            ></StyledTitle>
+            <StyledElement
+              text="About the company"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Help & support"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+            <StyledElement
+              text="Contact us"
+              fontSize={TextSize.BodyMedium}
+              onClick={() => console.log("TODOH")}
+            ></StyledElement>
+          </StyledColumn>
 
-        <StyledSocialGroup>
-          <StyledSocialLogo
-            logoComponent={<SvgX></SvgX>}
-            onClick={() => console.log("TODOH")}
-          ></StyledSocialLogo>
-          <StyledSocialLogo
-            logoComponent={<SvgInstagram></SvgInstagram>}
-            onClick={() => console.log("TODOH")}
-          ></StyledSocialLogo>
-          <StyledSocialLogo
-            logoComponent={<SvgYoutube></SvgYoutube>}
-            onClick={() => console.log("TODOH")}
-          ></StyledSocialLogo>
-          <StyledSocialLogo
-            logoComponent={<SvgLinkedin></SvgLinkedin>}
-            onClick={() => console.log("TODOH")}
-          ></StyledSocialLogo>
-        </StyledSocialGroup>
-      </StyledInfo>
+          <StyledSocialGroup>
+            <StyledSocialLogo
+              logoComponent={<SvgX></SvgX>}
+              onClick={() => console.log("TODOH")}
+            ></StyledSocialLogo>
+            <StyledSocialLogo
+              logoComponent={<SvgInstagram></SvgInstagram>}
+              onClick={() => console.log("TODOH")}
+            ></StyledSocialLogo>
+            <StyledSocialLogo
+              logoComponent={<SvgYoutube></SvgYoutube>}
+              onClick={() => console.log("TODOH")}
+            ></StyledSocialLogo>
+            <StyledSocialLogo
+              logoComponent={<SvgLinkedin></SvgLinkedin>}
+              onClick={() => console.log("TODOH")}
+            ></StyledSocialLogo>
+          </StyledSocialGroup>
+        </StyledInfo>
+      </StyledBox>
     </StyledWrap>
   );
 };
 
 const StyledWrap = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 32px 100px 64px 32px;
+  height: 300px;
+  align-self: stretch;
+  box-sizing: border-box;
+  background: linear-gradient(319.93deg, #e6fcff 7.85%, #ffffff 58.78%);
+  border-top: 1px solid #d9d9d9;
+`;
+const StyledBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
