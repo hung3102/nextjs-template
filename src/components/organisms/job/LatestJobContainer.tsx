@@ -30,6 +30,7 @@ export const LatestJobContainer = ({ lastUpdatedText, jobs }: IProps) => {
           ></StyledUpdatedText>
         </StyledTitleGroup>
         <StyledSeeAll
+          text="See all jobs"
           onClick={() => {
             console.log("TODOH");
           }}

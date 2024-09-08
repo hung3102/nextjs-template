@@ -2,14 +2,15 @@ import { ColorRightArrow } from "@/assets/images";
 import styled from "styled-components";
 
 type Props = {
+  text: string;
   onClick: () => void;
 };
 
-export const SeeAllButton = ({ onClick }: Props) => {
+export const SeeAllButton = ({ text, onClick }: Props) => {
   return (
     <StyledWrap>
       <StyledButton onClick={onClick}>
-        See all jobs
+        {text}
         <StyledArrow></StyledArrow>
       </StyledButton>
     </StyledWrap>
