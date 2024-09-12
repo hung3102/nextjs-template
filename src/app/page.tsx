@@ -1,3 +1,5 @@
+import { TopRoute } from "@/components/pages/TopRoute";
+
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>;
+  return <TopRoute />;
 }
