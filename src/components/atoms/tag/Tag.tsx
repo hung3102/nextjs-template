@@ -27,6 +27,7 @@ const StyledWrap = styled.div`
   border-radius: 8px;
   flex-grow: 0;
   color: #2c2c2c;
+  cursor: pointer;
 `;
 
 const StyledChecked = styled(SvgChecked)``;

@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const SearchBox = () => {
   return (
     <StyledWrap>
-      <StyledInput placeholder="Job title, Company, keywords"></StyledInput>
+      <StyledInput placeholder="Job title, Company, Keywords"></StyledInput>
       <StyledIcon></StyledIcon>
     </StyledWrap>
   );
@@ -28,4 +28,5 @@ const StyledInput = styled.input`
 const StyledIcon = styled(SvgSearch)`
   position: absolute;
   right: 16px;
+  cursor: pointer;
 `;

@@ -63,6 +63,7 @@ const StyledWrap = styled.div`
   height: 135px;
   border: 1px solid #d9d9d9;
   border-radius: 8px;
+  cursor: pointer;
 `;
 const StyledLogo = styled(CompanyLogo)``;
 

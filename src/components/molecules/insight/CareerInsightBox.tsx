@@ -44,6 +44,7 @@ const StyledWrap = styled.div`
   height: 346px;
   border: 1px solid #d9d9d9;
   border-radius: 8px;
+  cursor: pointer;
 `;
 
 const StyledThumbnail = styled.div<{ thumbnailUrl: string }>`

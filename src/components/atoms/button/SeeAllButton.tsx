@@ -32,5 +32,6 @@ const StyledButton = styled.button`
   border: 1px solid #009fb9;
   border-radius: 8px;
   color: #009fb9;
+  cursor: pointer;
 `;
 const StyledArrow = styled(ColorRightArrow)``;

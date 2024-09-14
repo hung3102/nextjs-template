@@ -54,7 +54,6 @@ const StyledTextWrap = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  width: 235px;
   height: 61px;
 `;
 const StyledTitle = styled(NormalText)`

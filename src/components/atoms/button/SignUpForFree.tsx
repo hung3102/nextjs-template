@@ -30,5 +30,6 @@ const StyledText = styled.div`
   background: #009fb9;
   border-radius: 8px;
   color: ${Color.White};
+  cursor: pointer;
 `;
 const StyledIcon = styled(SvgWhiteRightArrow)``;

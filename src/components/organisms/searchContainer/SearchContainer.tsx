@@ -9,7 +9,7 @@ export const SearchContainer = () => {
   return (
     <StyledWrap>
       <StyledBigText
-        title="Explore jobs in Japan"
+        title="Explore Tech jobs in Japan"
         fontSize={48}
       ></StyledBigText>
       <StyledNormalText
